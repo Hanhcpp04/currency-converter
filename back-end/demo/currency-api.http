@@ -1,0 +1,15 @@
+### Test chuyển đổi tiền tệ
+GET http://localhost:8080/api/v1/currency/convert?from=USD&to=VND&amount=1000
+Accept: application/json
+
+### Test chuyển đổi EUR sang USD
+GET http://localhost:8080/api/v1/currency/convert?from=EUR&to=USD&amount=500
+Accept: application/json
+
+### Test chuyển đổi VND sang EUR
+GET http://localhost:8080/api/v1/currency/convert?from=VND&to=EUR&amount=1000000
+Accept: application/json
+
+### Test chuyển đổi JPY sang GBP
+GET http://localhost:8080/api/v1/currency/convert?from=JPY&to=GBP&amount=10000
+Accept: application/json
